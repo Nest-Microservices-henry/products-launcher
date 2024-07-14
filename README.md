@@ -33,3 +33,9 @@ If you are working on the repository that has the sub-modules, **first update an
 
 If it is done the other way around, the references of the sub-modules in the main repository will be lost and we will have to resolve conflicts.
 
+
+#PROD
+
+1. clone the repo
+2. create .env base on .env template
+3. run command docker compose -f docker-compose.prod.yml build
